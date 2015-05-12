@@ -3,5 +3,5 @@
             [hello-clojure.core :refer :all]))
 
 (deftest a-test
-  (testing "FIXME, I fail."
+  (testing "I don't fail."
     (is (= 1 1))))
