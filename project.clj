@@ -9,4 +9,4 @@
   :profiles {:uberjar {:aot :all}
              :dev {:dependencies [[speclj "3.2.0"]]}}
   :plugins [[speclj "3.2.0"]]
-  :test-paths ["spec"])
+  )
