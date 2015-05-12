@@ -6,4 +6,7 @@
   :dependencies [[org.clojure/clojure "1.6.0"]]
   :main ^:skip-aot hello-clojure.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+  :profiles {:uberjar {:aot :all}
+             :dev {:dependencies [[speclj "3.2.0"]]}}
+  :plugins [[speclj "3.2.0"]]
+  :test-paths ["spec"])
