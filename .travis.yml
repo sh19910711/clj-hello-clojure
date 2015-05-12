@@ -2,5 +2,5 @@ language: clojure
 
 script:
   - lein test
-  - lein spec --reporter doc spec/
+  - lein spec --reporter documentation spec/
 
